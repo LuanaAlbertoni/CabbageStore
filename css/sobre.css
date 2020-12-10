@@ -1,3 +1,24 @@
 .interna_sobre {
     background: url("../img/backgroundrepolhos.jpg");
 }
+
+.historia_sobre {
+    padding-top: 60px;
+}
+
+.historia_sobre p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom:1em;
+    padding-right: 60px;
+
+}
+
+.historia_sobre ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom:1em;
+    padding-right: 60px;
+}
