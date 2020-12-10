@@ -54,7 +54,7 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    background: white;
+    background: #fff;
 
     z-index: 10;
 }
@@ -172,7 +172,7 @@ p {
     line-height: 25px;
     text-transform: uppercase;
     letter-spacing: .1em;
-    color: rgb(218, 216, 216);
+    color: #dad8d8;
     padding-top: 16px;
 
 }
@@ -204,7 +204,7 @@ p {
 }
 
 .call p {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 
@@ -224,8 +224,8 @@ p {
     background: #dad8d8;
 }
 
-.sobre_lista li:last-child {
-    margin-top: 20px;
+.sobre_lista li {
+    padding: 20px;
 }
 
 .sobre .call p {
@@ -307,5 +307,4 @@ p {
 
 .copy p {
     color: #dad8d8;
-    font-weight: bold;
 }
