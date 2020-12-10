@@ -23,12 +23,12 @@ p {
 
 .btn:hover {
     color: #fff;
-    border:3px solid #fff;
+    border: 3px solid #fff;
 }
 
 .btn.btn-preto:hover {
     color: #000;
-    border:3px solid #000;
+    border: 3px solid #000;
 }
 
 .btn-white {
@@ -45,7 +45,7 @@ p {
 
 .btn-white.btn-preto2:hover {
     color: #000;
-    border:3px solid #000;
+    border: 3px solid #000;
 }
 
 /* Header */
@@ -55,7 +55,6 @@ p {
     top: 0;
     width: 100%;
     background: #fff;
-
     z-index: 10;
 }
 
@@ -80,7 +79,7 @@ p {
 }
 
 .header_menu ul li a:hover {
-    color:  rgb(138, 34, 34);
+    color: rgb(138, 34, 34);
 }
 
 .subtitulo {
@@ -95,13 +94,12 @@ p {
 }
 
 .subtitulo:after {
-    content:"";
+    content: "";
     display: block;
     width: 60px;
     height: 3px;
     background: #000;
     margin: 10px auto;
-    
 }
 
 /* Introdução */
@@ -114,7 +112,6 @@ p {
     margin-top: 109px;
     text-align: center;
     padding-top: 150px;
-    
 }
 
 .introducao h1 {
@@ -126,7 +123,7 @@ p {
 }
 
 .quote-externo {
-    max-width: 250px;
+    max-width: 300px;
     margin: 0 auto;
     margin-bottom: 60px;
     color: white;
@@ -137,7 +134,7 @@ p {
 }
 
 .quote-externo p:before, .quote-externo p:after {
-    content:"";
+    content: "";
     display: block;
     width: 60px;
     height: 3px;
@@ -153,18 +150,44 @@ p {
     letter-spacing: .1em;
 }
 
+/*Introdução Interna */
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    color: #fff;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*.introducao-interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+}
+
 /* Produtos */
 
 .produtos {
     padding: 90px 0;
-
 }
 
 .produtos_lista li {
     background: rgb(138, 34, 34);
     text-align: center;
     border: 3px solid #8a2222;
-
 }
 
 .produtos_lista h3 {
@@ -175,11 +198,10 @@ p {
     letter-spacing: .1em;
     color: #dad8d8;
     padding-top: 16px;
-
 }
 
 .produtos_lista h3:after {
-    content:"";
+    content: "";
     display: block;
     width: 60px;
     height: 3px;
@@ -206,7 +228,6 @@ p {
 
 .call p {
     margin-bottom: 40px;
-
 }
 
 /* SOBRE */
@@ -285,13 +306,12 @@ p {
     font-size: 14px;
     line-height: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-} 
+}
 
 .footer_redes ul li {
     display: inline-block;
     padding-right: 10px;
     text-align: center;
-    
 }
 
 .footer_redes ul li a {

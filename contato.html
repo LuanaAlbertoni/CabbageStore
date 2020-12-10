@@ -5,12 +5,24 @@
 <head>
     <meta charset="utf-8">
     <title>Contato - Cabbage Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+
 </head>
 
-<body>
-    <h1>Contato</h1>
+<section>
+    <div class="container">
+        <h1>Contato</h1>
+        <p>Entre em contato com a CABBAGE SHOP</p>
+    </div> 
+</section>
 
-    <form action="enviar.script" method="post" name="form">
+<section class="contato container">
+    <h2 class="subtitulo">Contato</h2>
+    <form id="form_contato" class="form grid-8">
         <div>
             <label for="nome">Nome *</label>
             <input id="nome" name="nome" type="text" required>
@@ -35,7 +47,7 @@
         <textarea></textarea>
         <button type="submit">Enviar</button>
     </form>
-
+</section>
 
     <img src="">
     <a href="index.html">Voltar</a>
