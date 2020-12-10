@@ -163,6 +163,7 @@ p {
 .produtos_lista li {
     background: rgb(138, 34, 34);
     text-align: center;
+    border: 3px solid #8a2222;
 
 }
 
@@ -226,6 +227,7 @@ p {
 
 .sobre_lista li {
     padding: 20px;
+    margin-left: 10px;
 }
 
 .sobre .call p {
@@ -251,7 +253,7 @@ p {
 
 .footer {
     width: 100%;
-    height: 220px;
+    height: 200px;
     background: #000;
     color: #fff;
     padding: 20px 0;
